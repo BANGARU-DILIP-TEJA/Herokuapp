@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="The Herokuapp Automation">
+
+    <listeners>
+        <listener class-name="Tests.ExtentReporterNG" />
+    </listeners>
+
+
+    <test name="The Herokuapp TestCases">
+        <classes>
+
+            <class name="Tests.BrokenImagesTest"/>
+        </classes>
+    </test>
+</suite>
